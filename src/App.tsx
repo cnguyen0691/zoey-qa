@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound"
 import { DesignVerseBadges } from "./components/design-verse-badges"
 
 const queryClient = new QueryClient()
-
+const resume = './assets/Zoey_Nguyen_Resume.pdf';
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
