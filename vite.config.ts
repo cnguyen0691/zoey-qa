@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // This is important for GitHub Pages!
+  base: '/zoey.resume/', // This is important for GitHub Pages!
   assetsInclude: ['**/*.pdf'],
   server: {
     host: "::",
