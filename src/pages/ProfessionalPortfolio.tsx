@@ -131,17 +131,14 @@ const ProfessionalPortfolio: React.FC = () => {
             <a href="#education" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Education</a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</a>
           </nav>
-          <div className="flex items-center gap-4">
-            <button className="text-gray-700 hover:text-blue-600 transition-colors">
-              <Linkedin className="w-5 h-5" />
-            </button>
-            <button className="text-gray-700 hover:text-blue-600 transition-colors">
-              <Github className="w-5 h-5" />
-            </button>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors">
-              Hire Me
-            </button>
-          </div>
+  <div className="flex items-center gap-4">
+    <a href="https://www.linkedin.com/in/chaunguyen0691/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 transition-colors">
+      <Linkedin className="w-5 h-5" />
+    </a>
+    <a href="https://github.com/cnguyen0691" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 transition-colors">
+      <Github className="w-5 h-5" />
+    </a>
+  </div>
         </div>
       </header>
 
@@ -181,10 +178,15 @@ const ProfessionalPortfolio: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg flex items-center gap-2 transition-colors">
-              <Download className="w-5 h-5" />
-              Download Resume
-            </button>
+  <a
+    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg flex items-center gap-2 transition-colors inline-flex"
+    href="public/ZOEY NGUYEN_QA.pdf"
+    download="ZOEY NGUYEN_QA.pdf"
+    rel="noopener noreferrer"
+  >
+    <Download className="w-5 h-5" />
+    Download Resume
+  </a>
             <button className="bg-transparent border-2 border-blue-600 hover:border-blue-700 text-blue-400 hover:text-blue-300 font-semibold py-3 px-6 rounded-lg flex items-center gap-2 transition-colors">
               <Phone className="w-5 h-5" />
               Schedule Call
