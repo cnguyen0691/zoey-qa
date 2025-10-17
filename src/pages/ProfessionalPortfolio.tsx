@@ -122,7 +122,7 @@ const ProfessionalPortfolio: React.FC = () => {
       <header className="bg-white shadow-sm border-b border-gray-200 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <UserCircle className="w-8 h-8 text-blue-600" />
+            <img src="zoey.jpg" alt="Zoey" className="w-8 h-8 rounded-full" />
             <span className="text-xl font-bold text-gray-900">Zoey Nguyen</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
@@ -158,7 +158,7 @@ const ProfessionalPortfolio: React.FC = () => {
             Zoey Nguyen
           </h1>
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-200">
-            Automation Test Engineer
+            Software Quality Test Engineer
           </h2>
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Proficient in designing, developing, and executing automated test frameworks using Selenium WebDriver, Java, and Cucumber for web-based applications.
@@ -187,10 +187,12 @@ const ProfessionalPortfolio: React.FC = () => {
     <Download className="w-5 h-5" />
     Download Resume
   </a>
-            <button className="bg-transparent border-2 border-blue-600 hover:border-blue-700 text-blue-400 hover:text-blue-300 font-semibold py-3 px-6 rounded-lg flex items-center gap-2 transition-colors">
-              <Phone className="w-5 h-5" />
-              Schedule Call
-            </button>
+           <a href="tel:2817403534">
+  <button className="bg-transparent border-2 border-blue-600 hover:border-blue-700 text-blue-400 hover:text-blue-300 font-semibold py-3 px-6 rounded-lg flex items-center gap-2 transition-colors">
+    <Phone className="w-5 h-5" />
+    Call (281) 740-3534
+  </button>
+</a>
           </div>
         </div>
       </section>
@@ -383,7 +385,7 @@ const ProfessionalPortfolio: React.FC = () => {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Let's Connect</h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ready to bring automation excellence to your team? Let's discuss how my QA expertise can drive your project's success.
+              Ready to bring manual and automation excellence to your team? Let's discuss how my QA expertise can drive your project's success.
             </p>
           </div>
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200">
@@ -428,18 +430,20 @@ const ProfessionalPortfolio: React.FC = () => {
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center gap-6 mb-4">
-            <button className="hover:text-blue-400 transition-colors">
-              <Linkedin className="w-6 h-6" />
-            </button>
-            <button className="hover:text-blue-400 transition-colors">
-              <Github className="w-6 h-6" />
-            </button>
-            <button className="hover:text-blue-400 transition-colors">
-              <Mail className="w-6 h-6" />
-            </button>
+            <a href="https://www.linkedin.com/in/chaunguyen0691/" target="_blank" rel="noopener noreferrer" className="text-black-700 hover:text-blue-600 transition-colors">
+      <Linkedin className="w-5 h-5" />
+    </a>
+    <a href="https://github.com/cnguyen0691" target="_blank" rel="noopener noreferrer" className="text-black-700 hover:text-blue-600 transition-colors">
+      <Github className="w-5 h-5" />
+    </a>
+            <a href="mailto:chaunguyen0691@gmail.com">
+  <button className="hover:text-blue-400 transition-colors">
+    <Mail className="w-6 h-6" />
+  </button>
+</a>
           </div>
           <p className="text-gray-400">
-            © 2024 Zoey Nguyen. Automation Test Engineer specializing in quality assurance and test automation.
+            © 2024 Zoey Nguyen. Software Quality Test Engineer specializing in quality assurance and test manual and automation.
           </p>
         </div>
       </footer>

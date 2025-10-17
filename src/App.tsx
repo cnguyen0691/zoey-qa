@@ -17,7 +17,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/zoey-qa"
             element={<ProfessionalPortfolio />}
           />
 
