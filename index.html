@@ -23,3 +23,9 @@
     <div id="root"></div>
   </body>
 </html>
+<script>
+  if (sessionStorage.redirect) {
+    history.replaceState(null, null, sessionStorage.redirect);
+    delete sessionStorage.redirect;
+  }
+</script>
