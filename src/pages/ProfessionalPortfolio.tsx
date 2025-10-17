@@ -180,7 +180,7 @@ const ProfessionalPortfolio: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
   <a
     className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg flex items-center gap-2 transition-colors inline-flex"
-    href="public/ZOEY NGUYEN_QA.pdf"
+    href="ZOEY NGUYEN_QA.pdf"
     download="ZOEY NGUYEN_QA.pdf"
     rel="noopener noreferrer"
   >
